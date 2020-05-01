@@ -23,4 +23,5 @@ jobs:
         run: |
            ./gradlew build
            ./gradlew shadowJar
+           ls -R
 
