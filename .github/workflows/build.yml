@@ -21,7 +21,6 @@ jobs:
 
       - name: Build and Test
         run: |
-           ./gradlew build
            ./gradlew shadowJar
            ls -R
 
